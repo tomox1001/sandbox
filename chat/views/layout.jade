@@ -1,0 +1,15 @@
+!!!
+html
+	head
+		title= title
+		script(type='text/javascript', src='https://www.google.com/jsapi')
+		script(type='text/javascript')
+			google.load("jquery", "1.4.4");
+		script(type='text/javascript', src='/socket.io/socket.io.js')
+		script(type='text/javascript', src='/js/client.js')
+	body!= body
+		form#form(action="")
+			input#message(type="text", name="message")
+			input(type="submit")
+		hr
+		dl#list
