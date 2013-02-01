@@ -12,8 +12,7 @@ def getMedian(numericValues):
 methods = {}
 counts = {}
 medians = {}
-for line in open('responseMain', 'r'):
-#for line in open('responsetest', 'r'):
+for line in open('response-time.log', 'r'):
 	lines = line.split(' ')
 	# methods
 	if lines[5] in methods:
@@ -25,7 +24,7 @@ for line in open('responseMain', 'r'):
 	if lines[5] in counts:
 		counts[lines[5]] = int(counts[lines[5]]) + 1
 	else:
-		counts.update({lines[5]:0})
+		counts.update({lines[5]:1})
 	
 	# medians
 	if lines[5] in medians:
