@@ -1,0 +1,44 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Connection	20130220/extractUser.py	/^from pymongo import Connection$/;"	i
+Connection	20130318/extractActivity.py	/^from pymongo import Connection$/;"	i
+Connection	20130318/recoveryPpoint.py	/^from pymongo import Connection$/;"	i
+Connection	20130327/extractActivity.py	/^from pymongo import Connection$/;"	i
+Connection	20130502/recoveryPpoint.py	/^from pymongo import Connection$/;"	i
+Connection	20130601/extractActivity.py	/^from pymongo import Connection$/;"	i
+activity	20130318/extractActivity.py	/^activity = db.Activity201303180800$/;"	v
+activity	20130601/extractActivity.py	/^activity = db.Activity201306010000$/;"	v
+activity1	20130327/extractActivity.py	/^activity1 = db.Activity201303270500$/;"	v
+activity2	20130327/extractActivity.py	/^activity2 = db.Activity201303270600$/;"	v
+activity3	20130327/extractActivity.py	/^activity3 = db.Activity201303270700$/;"	v
+activity4	20130327/extractActivity.py	/^activity4 = db.Activity201303270800$/;"	v
+activity5	20130327/extractActivity.py	/^activity5 = db.Activity201303270900$/;"	v
+amebaId	20130318/extractActivity.py	/^    amebaId = record["amebaId"]$/;"	v
+amebaId	20130601/extractActivity.py	/^    amebaId = record["amebaId"]$/;"	v
+amebaIdList	20130220/extractUser.py	/^amebaIdList = readCsv()$/;"	v
+amebaIdList	20130318/recoveryPpoint.py	/^amebaIdList = readCsv()$/;"	v
+amebaIdList	20130502/recoveryPpoint.py	/^amebaIdList = readCsv()$/;"	v
+con	20130318/extractActivity.py	/^con = Connection('10.200.16.6', 27018)$/;"	v
+con	20130327/extractActivity.py	/^con = Connection('10.200.16.6', 27017)$/;"	v
+con	20130601/extractActivity.py	/^con = Connection('10.200.0.6', 27019)$/;"	v
+csv	20130220/extractUser.py	/^import csv$/;"	i
+csv	20130318/extractActivity.py	/^import csv$/;"	i
+csv	20130318/recoveryPpoint.py	/^import csv$/;"	i
+csv	20130327/extractActivity.py	/^import csv$/;"	i
+csv	20130502/recoveryPpoint.py	/^import csv$/;"	i
+csv	20130601/extractActivity.py	/^import csv$/;"	i
+db	20130318/extractActivity.py	/^db = con["life_prd_log"]$/;"	v
+db	20130327/extractActivity.py	/^db = con["life_prd_log"]$/;"	v
+db	20130601/extractActivity.py	/^db = con["island_prd_log"]$/;"	v
+extractTargetUser	20130220/extractUser.py	/^def extractTargetUser(amebaIdList):$/;"	f
+extractTargetUser	20130318/recoveryPpoint.py	/^def extractTargetUser(amebaIdList):$/;"	f
+extractTargetUser	20130502/recoveryPpoint.py	/^def extractTargetUser(amebaIdList):$/;"	f
+output	20130327/extractActivity.py	/^def output(activity):$/;"	f
+re	20130327/extractActivity.py	/^import re$/;"	i
+readCsv	20130220/extractUser.py	/^def readCsv():$/;"	f
+readCsv	20130318/recoveryPpoint.py	/^def readCsv():$/;"	f
+readCsv	20130502/recoveryPpoint.py	/^def readCsv():$/;"	f
